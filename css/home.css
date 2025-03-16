@@ -255,12 +255,15 @@ header{
         margin-left: 1rem;
     }
 
-    .links{
-        display: none;   
-    }
 
     .cat-image{
         width: 12rem;
+    }
+    .articles-news{
+        margin-top: 2rem;
+    }
+    header{
+        min-height: 70vh;
     }
 
     .cat-text{
@@ -404,14 +407,14 @@ header{
 }
 
 
-@media screen and  (max-width: 1200px) {
+@media screen and  (max-width: 1300px) {
 
     .card-title h3{
         width: 16rem;
     }
 
     .card-image{
-        width: 16rem;
+        width: 15rem;
     }
 
  

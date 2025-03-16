@@ -108,8 +108,8 @@ header{
 }
 .footer h4{
     font-size: 38px;
-    color: white;
-    color: #FFEBC3; 
+    color: #fff;
+    color: #ffebc3; 
     text-shadow: #df7822 2px 2px; 
 }
 .footer a{
@@ -125,11 +125,35 @@ header{
 /* Responsive */
 
 @media screen and   (max-width: 576px) {
+    .logo{
+        margin-left: 0.5rem;
+        padding: 10px;
+    }
     .links{
-        display: none;
+        display: block;
+        margin-right: 0;
+        background-color: #df7822;
+        position: relative;
+    }
+    nav{
+        display: block;
+        padding: 0;
+    }
+    nav ul li{
+        text-align: center;
+        margin-right: 0;
+        padding: 0.8rem;
+        font-size: 18px;
+
+    }
+    nav ul li a{
+        color: #fff;
+
+
     }
     .container{
         margin: 0 2rem;
     }
+  
     
 }
